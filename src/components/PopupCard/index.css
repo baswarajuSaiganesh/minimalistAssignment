@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+.imgs-container{
+    display: none;
+}
+
+.popup-img{
+    height: 70%;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.popup-sm-img{
+    width: 100px;
+    margin: 3px;
+}
+
+.name{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.mrp{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 24px;
+}
+
+hr{
+    border: 1px dashed #F27121;
+}
+
+.title{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.description{
+    font-size: 12px;
+}
+
+.choose-btn{
+    height: 28px;
+    width: 90px;
+    color: white;
+    border: none;
+    background-color: #FE0000;
+}
+
+@media screen and (min-width:992px) {
+    .card{
+        display: flex;
+        padding: 24px;
+    }
+
+    .imgs-container{
+        display: flex;
+        flex-direction: column;
+        min-width: 55%;
+        margin-right: 16px;
+    }
+}
